@@ -10,13 +10,13 @@ const Counter = () => {
             <div className="flex gap-4 justify-center">
                 <button
                     onClick={() => setCount(count + 1)}
-                    className="bg-green-600 px-5 py-2 rounded-md"
+                    className="btn btn-accent"
                 >
                     Increment
                 </button>
                 <button
                     onClick={() => setCount(count - 1)}
-                    className="bg-red-600 px-5 py-2 rounded-md"
+                    className="btn btn-active btn-secondary"
                 >
                     Decrement
                 </button>
